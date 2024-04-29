@@ -7,6 +7,9 @@ The Single Lane Bridge problem serves as a model for scenarios where multiple pr
 
 The algorithm implementation is divided into four stages of increasing complexity, each corresponding to one of the proposed questions in the course assessment.
 
+### Technologies
+![Code::Blocks Badge](https://img.shields.io/badge/Code%3A%3ABlocks-41AD48?logo=codeblocks&logoColor=fff&style=for-the-badge) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
 ### Problem 1: Cars Only
 
 In this scenario, 100 cars ( n ) will traverse the bridge, 50 in each direction. Each car's arrival time ( T<sub>a</sub> ) is randomly distributed between 1 and 3 seconds, while the crossing time ( T<sub>c</sub> ) for each car is fixed at 5 seconds. A 1-second space ( T<sub>s</sub> ) is maintained between vehicles traveling in the same direction, allowing up to 5 cars to cross simultaneously. Upon approaching the bridge, a car checks if the current traffic aligns with its direction before proceeding. Once all cars in one direction have crossed, vehicles from the opposite direction gain access.
